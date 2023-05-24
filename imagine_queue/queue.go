@@ -420,9 +420,9 @@ func (q *queueImpl) processCurrentImagine() {
 			Seed:              -1,
 			Subseed:           -1,
 			SubseedStrength:   0,
-			SamplerName:       "Euler a",
-			CfgScale:          9,
-			Steps:             20,
+			SamplerName:       "DPM++ SDE Karras",
+			CfgScale:          8,
+			Steps:             40,
 			Processed:         false,
 		}
 
